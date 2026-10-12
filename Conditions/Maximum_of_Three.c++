@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main() {
     int a,b,c;
     cout<<"Enter NUmber 1:";
     cin>>a;
@@ -9,13 +9,13 @@ int main(){
     cout<<"Enter Number 3:";
     cin>>c;
     if(a>b && a>c){
-        cout<<a<<" is Greater";
+        cout<<a<<" is Greater.";
     }
     else if(b>c){
-        cout<<b<<" is Greater";
+        cout<<b<<" is Greater.";
     }
     else{
-        cout<<c<<" is Greater";
+        cout<<c<<" is Greater.";
     }
     return 0;
 }
