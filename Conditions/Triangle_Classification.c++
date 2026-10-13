@@ -12,7 +12,7 @@ int main(){
         if(a<90 && b<90 && c<90){
             cout<<"Acute Angle Triangle.";
         }
-        else if(a==90 || b==90 || c==0){
+        else if(a==90 || b==90 || c==90){
             cout<<"Right Angled Triangle.";
         }
         else if(a>90 || b>90 || c>90){
